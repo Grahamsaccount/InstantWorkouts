@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">InstantWorkout</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="exerciseNames">
+        <item>Curls</item>
+        <item>Reverse Curls</item>
+        <item>Military Press</item>
+        <item>Triceps Extension</item>
+
+        <item>Squats</item>
+        <item>Lunges</item>
+        <item>Hip Thrust</item>
+        <item>Calf Raises</item>
+
+        <item>Sit Ups</item>
+        <item>Russian Twist</item>
+        <item>Butterflies</item>
+        <item>Side Bridges</item>
+
+        <item>Bench Press</item>
+        <item>Rows</item>
+        <item>V Ups</item>
+        <item>Chest Flys</item>
+    </string-array>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="curls">Curls</string>
+    <string name="reverse_curls">Reverse Curls</string>
+    <string name="military_press">Military Press</string>
+    <string name="triceps_extension">Triceps Extension</string>
+    <string name="update">Update</string>
+    <string name="select_exercises">Select Exercises</string>
+    <string name="select_training_style">Select Training Style</string>
+    <string name="generate_workout">Generate Workout</string>
+    <string name="progress_graph">Progress Graph</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_generate_workout">GenerateWorkout</string>
+    <string name="title_activity_DesiredExercises">DesiredExercises</string>
+    <string name="something_is_wrong">something is wrong</string>
+    <string name="chest">Chest</string>
+    <string name="core">Core</string>
+    <string name="legs">Legs</string>
+    <string name="arms">Arms</string>
+    <string name="preform_workout">Preform Workout</string>
+</resources>

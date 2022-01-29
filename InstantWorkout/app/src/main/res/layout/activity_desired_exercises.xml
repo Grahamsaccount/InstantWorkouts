@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARMS"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/curls"
+            android:id="@+id/arms0"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/reverse_curls"
+            android:layout_weight="0.2"
+            android:id="@+id/arms1"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/military_press"
+            android:id="@+id/arms2"
+            android:layout_weight="0.2"
+            android:backgroundTint="@color/button_background_color"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/triceps_extension"
+            android:layout_weight="0.2"
+            android:id="@+id/arms3"
+            android:backgroundTint="@color/button_background_color"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/updatebtn"
+        />
+
+</LinearLayout>
