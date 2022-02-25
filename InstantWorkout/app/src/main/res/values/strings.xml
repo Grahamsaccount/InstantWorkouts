@@ -29,12 +29,53 @@
         <item>Chest Flys</item>
     </string-array>
 
+    <string-array name="DBexerNames">
+        <item>curlScore</item>
+        <item>revCurlScore</item>
+        <item>mPressScore</item>
+        <item>triExScore</item>
+
+        <item>squatScore</item>
+        <item>lungeScore</item>
+        <item>hipThrustScore</item>
+        <item>calfRaiseScore</item>
+
+        <item>sitUpScore</item>
+        <item>russTwistScore</item>
+        <item>butterfliesScore</item>
+        <item>sideBridgeScore</item>
+
+        <item>benchPressScore</item>
+        <item>rowsScore</item>
+        <item>vUpsScore</item>
+        <item>chestFlysScore</item>
+    </string-array>
+
+    <string-array name="trainingStyles">
+        <item>Split Training</item>
+        <item>Progressive Overload</item>
+    </string-array>
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="curls">Curls</string>
     <string name="reverse_curls">Reverse Curls</string>
     <string name="military_press">Military Press</string>
     <string name="triceps_extension">Triceps Extension</string>
+    <string name="squat">Squat</string>
+    <string name="lunge">Lunge</string>
+    <string name="hip_thrust">Hip Thrust</string>
+    <string name="calf_raise">Calf Raise</string>
+    <string name="sit_ups">Sit Ups</string>
+    <string name="russ_twist">Russian Twists</string>
+    <string name="butterflies">Butterflies</string>
+    <string name="side_bridge">Side Bridge</string>
+
+    <string name="bench_press">Bench Press</string>
+    <string name="rows">Rows</string>
+    <string name="v_ups">V-Ups</string>
+    <string name="chest_flys">Chest Flys</string>
+
     <string name="update">Update</string>
     <string name="select_exercises">Select Exercises</string>
     <string name="select_training_style">Select Training Style</string>
@@ -50,4 +91,15 @@
     <string name="legs">Legs</string>
     <string name="arms">Arms</string>
     <string name="preform_workout">Preform Workout</string>
+    <string name="skip">Skip</string>
+    <string name="complete">Complete</string>
+    <string name="upper_body">Upper Body</string>
+    <string name="lower_body">Lower Body</string>
+    <string name="max_weight">Max Weight</string>
+    <string name="max_reps">Max Reps</string>
+    <string name="time">seconds</string>
+    <string name="poundage">lbs</string>
+    <string name="title_activity_PreformExercise">PreformExercise</string>
+    <string name="splittext">Please select a split from the top of the screen.</string>
+    <string name="fail">Fail</string>
 </resources>

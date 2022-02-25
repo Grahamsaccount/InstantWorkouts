@@ -23,7 +23,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
-                android:text="@string/arms" />
+                android:text="@string/upper_body" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
@@ -31,23 +31,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
-                android:text="@string/legs" />
+                android:text="@string/lower_body" />
 
-            <Button
-                style="?android:attr/buttonBarButtonStyle"
-                android:id="@+id/btnCore"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.2"
-                android:text="@string/core" />
-
-            <Button
-                style="?android:attr/buttonBarButtonStyle"
-                android:id="@+id/btnChest"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.2"
-                android:text="@string/chest" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,24 +62,49 @@
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:text="@string/something_is_wrong" />
+                        android:layout_margin="10dp" />
 
                     <TextView
                         android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:text="@string/something_is_wrong" />
+                        android:layout_margin="10dp" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:text="@string/something_is_wrong" />
+                        android:layout_margin="10dp" />
                 </LinearLayout>
             </HorizontalScrollView>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/max_reps"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+
+                    />
+                <androidx.appcompat.widget.AppCompatSeekBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:max="20"
+                    android:progress="0"
+                    android:layout_weight="0.9"
+                    android:id="@+id/repSeekBar"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/max_weight"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
             <Button
                 android:id="@+id/btnPreform"

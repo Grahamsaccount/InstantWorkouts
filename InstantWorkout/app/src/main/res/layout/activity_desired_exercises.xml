@@ -47,6 +47,117 @@
             android:backgroundTint="@color/button_background_color"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/squat"
+            android:id="@+id/legs0"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/lunge"
+            android:layout_weight="0.2"
+            android:id="@+id/legs1"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/hip_thrust"
+            android:id="@+id/legs2"
+            android:layout_weight="0.2"
+            android:backgroundTint="@color/button_background_color"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/calf_raise"
+            android:layout_weight="0.2"
+            android:id="@+id/legs3"
+            android:backgroundTint="@color/button_background_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/sit_ups"
+            android:id="@+id/core0"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/russ_twist"
+            android:layout_weight="0.2"
+            android:id="@+id/core1"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/butterflies"
+            android:id="@+id/core2"
+            android:layout_weight="0.2"
+            android:backgroundTint="@color/button_background_color"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/side_bridge"
+            android:layout_weight="0.2"
+            android:id="@+id/core3"
+            android:backgroundTint="@color/button_background_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/bench_press"
+            android:id="@+id/chest0"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/rows"
+            android:layout_weight="0.2"
+            android:id="@+id/chest1"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/v_ups"
+            android:id="@+id/chest2"
+            android:layout_weight="0.2"
+            android:backgroundTint="@color/button_background_color"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/chest_flys"
+            android:layout_weight="0.2"
+            android:id="@+id/chest3"
+            android:backgroundTint="@color/button_background_color"/>
+    </LinearLayout>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

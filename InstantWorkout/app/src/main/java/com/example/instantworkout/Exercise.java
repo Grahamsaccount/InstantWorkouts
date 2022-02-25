@@ -3,43 +3,46 @@ package com.example.instantworkout;
 import java.io.Serializable;
 
 public class Exercise implements Serializable {
-    private int m_Intensity;
-    private int m_eType;
-    private int m_sScore;
+    private Intensity m_Intensity;
+    private boolean m_eType;
+    private StrengthScore m_sScore;
     private boolean m_pass;
     private boolean m_skip;
 
     public Exercise()
     {
-        m_Intensity = 0;
-        m_eType = 0;
-        m_sScore = 0;
+        m_Intensity = new Intensity();
+        m_eType = false;
+        m_sScore = new StrengthScore();
         m_pass = false;
         m_skip = false;
     }
 
-    public Exercise(int Intense, int eType, int sScore, boolean pass,boolean skip)
+    public Exercise(int Intense, boolean eType, int sScore, boolean pass,boolean skip, int offset, boolean type)
     {
-        m_Intensity = Intense;
+        m_Intensity = new Intensity(Intense,sScore,type);
         m_eType = eType;
-        m_sScore = sScore;
+        m_sScore = new StrengthScore(sScore, offset);
         m_pass = pass;
         m_skip = skip;
     }
 
-    public int geteType() {
+    public boolean geteType() {
         return m_eType;
     }
-    public void seteType(int eType) {
+    public void seteType(boolean eType) {
         m_eType = eType;
     }
 
+    public void setsOffset(int offset) {m_sScore.set_ExName(offset);}
+    public int getsOffset() {return  m_sScore.get_ExName();}
+
     public int getsScore() {
-        return m_sScore;
+        return m_sScore.get_Score();
     }
 
     public void setsScore(int sScore) {
-        m_sScore = sScore;
+        m_sScore.set_Score(sScore);
     }
 
     public boolean ispass() {
@@ -50,12 +53,8 @@ public class Exercise implements Serializable {
         m_pass = pass;
     }
 
-    public int getIntensity() {
+    public Intensity getIntensity() {
         return m_Intensity;
-    }
-
-    public void setIntensity(int Intensity) {
-        m_Intensity = Intensity;
     }
 
     public boolean isskip() {

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.instantworkout">
 
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +15,10 @@
         <activity
             android:name=".GenerateWorkout"
             android:label="@string/title_activity_generate_workout"
+            android:theme="@style/Theme.InstantWorkout.NoActionBar" />
+        <activity
+            android:name=".PreformExercise"
+            android:label="@string/title_activity_PreformExercise"
             android:theme="@style/Theme.InstantWorkout.NoActionBar" />
         <activity
             android:name=".DesiredExercises"
@@ -28,5 +35,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
